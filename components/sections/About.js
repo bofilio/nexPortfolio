@@ -25,7 +25,7 @@ const About = () => {
               <p>
                 <span className="font-bold"> Frontend: </span>I am familiar with React and NextJs frameworks. For the styling,
                 I am great with CSS and TailWind-CSS (low-level library). However,
-                I can work with any other top-level CSS framework such as bootstrap or Materialize.
+                I can work with any top-level CSS framework such as bootstrap or Materialize.
               </p>
               <p>
                 <span className="font-bold">DBMS: </span> i am familiar with MongoDB (noSql database) and PostgreSQL(sql-relational database).

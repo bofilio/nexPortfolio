@@ -34,7 +34,7 @@ export const ResponsiveNavBar = () => {
         <nav className="hidden md:block space-x-8">
           {navLinks}
         </nav>
-        <button type="button" aria-label="Toggle mobile menu" onClick={() => setMenuOpen(!menuOpen)} className="rounded md:hidden focus:outline-none focus:ring focus:ring-gray-500 focus:ring-opacity-50">
+        <button type="button" aria-label="Toggle mobile menu" onClick={() => setMenuOpen(!menuOpen)} className="rounded md:hidden focus:outline-none focus:ring focus:ring-green-800 focus:ring-opacity-50">
           <MenuIcon menuOpen={menuOpen} />
         </button>
         <MySocialLinks className=" hidden md:flex"/>
