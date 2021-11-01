@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 :root{
-    --primary:#503E9D;
-    --secondary:#FB6D3A;
+    --primary:#08446B;
+    --secondary:#2A8E63;
     --success:#419D3E;
-    --error:#FF0000;
+    --error:#F980C0;
     --tertiary:#FACD5D;
     --transparent-primary:rgba(80, 62, 157, 0.1);
     --transparent-secondary: rgba(251, 109, 58, 0.1);
@@ -20,7 +20,7 @@
     --gray-16: rgba(163, 163, 164, 0.16);
     --dark:#2D2D2D;
     --light:#F7F7F7;
-    --text-dark:#182135;
+    --text-dark:#032A43;
     --text-gray:#626264;
     --text-light:#F7FAFC;
 }
