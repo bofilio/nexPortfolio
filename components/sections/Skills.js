@@ -18,14 +18,14 @@ const Skills = () => {
                 <ReactIcon className=" w-40 h-40 " />
               </div>
               <h1 className=" self-center text-gray font-bold text-lg">React</h1>
-              <p className="text-gray flex-grow">I hv two years of experience with React. I use it to build Frontend Web apps and i love it..</p>
+              <p className="text-gray flex-grow">I have two years of experience with React. I use it to build Frontend Web apps and i love it..</p>
             </div>
             <div className=" flex flex-shrink-0 m-2 flex-col border-2 border-gray-800 space-y-2 w-60  bg-white shadow-xl rounded-xl p-4">
               <div className="flex justify-center items-center">
                 <NextJsIcon className=" w-40 h-40 " />
               </div>
               <h1 className=" self-center text-gray font-bold text-lg">NextJS</h1>
-              <p className="text-gray flex-grow text-justify ">NextJs is built on top of React. It supports SSR, caching, Bundle Splitting and more, all of the box. </p>
+              <p className="text-gray flex-grow text-justify ">NextJs is built on top of React. It supports SSR, caching, Bundle Splitting and more, all out of the box. </p>
             </div>
 
             <div className=" flex flex-shrink-0  flex-col m-2 border-2 border-green-300 space-y-2 w-60  bg-white shadow-xl rounded-xl p-4">
@@ -48,7 +48,7 @@ const Skills = () => {
                 <FireBaseIcon className=" w-40 h-40 " />
               </div>
               <h1 className=" self-center text-gray font-bold text-lg">Firebase Backend</h1>
-              <p className="text-gray flex-grow">As a backend alternative, i am also familiar with firebase out of the box features.</p>
+              <p className="text-gray flex-grow">As a backend alternative, i am also familiar with google firebase services.</p>
             </div>
 
             <div className=" flex flex-shrink-0  flex-col m-2 border-2 border-green-500 space-y-2 w-60 bg-white shadow-xl rounded-xl p-4">
@@ -56,7 +56,7 @@ const Skills = () => {
                 <MongoDbIcon className="w-40 h-40"/>
               </div>
               <h1 className=" self-center text-gray font-bold text-lg">DBMS</h1>
-              <p className="text-gray flex-grow">I am familiar with MongoDb, Postgres and SqlLite. however i can learn any other Dbms when needed.</p>
+              <p className="text-gray flex-grow">I am familiar with MongoDb, Postgres and Sqllite. However, I can learn any other Dbms when needed.</p>
             </div>
           </div>
         </section>
