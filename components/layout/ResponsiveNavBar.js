@@ -26,7 +26,7 @@ export const ResponsiveNavBar = () => {
   return (
     <nav className="w-full fixed top-0  bg-gradient-to-r from-green-100 to-green-50  ">
       {/**menu on large screen */}
-      <div className="flex items-center justify-between p-8">
+      <div className="flex items-center justify-between p-5">
         <div className="flex items-center">
           <MagicIcon className="w-8 h-8 mr-2" />
           <a href="#home" className="text-2xl font-bold no-underline text-dark hover:text-gray-600"> Talha hemza</a>
