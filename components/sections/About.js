@@ -23,8 +23,8 @@ const About = () => {
                 I am also familiar with google-firebase Backend service
               </p>
               <p>
-                <span className="font-bold"> Frontend</span>I am familiar with React and NextJs frameworks. For the styling,
-                I can say that I am great with pure-CSS and TailWind-CSS (low-level library), However,
+                <span className="font-bold"> Frontend: </span>I am familiar with React and NextJs frameworks. For the styling,
+                I am great with CSS and TailWind-CSS (low-level library). However,
                 I can work with any other top-level CSS framework such as bootstrap or Materialize.
               </p>
               <p>
