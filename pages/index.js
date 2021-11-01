@@ -21,14 +21,15 @@ import Latest from '../components/sections/Latest';
 import Footer from '../components/layout/Footer';
 import Main from '../components/layout/Main';
 import Header from '../components/layout/Header';
+import { ResponsiveNavBar } from '../components/layout/ResponsiveNavBar';
 export default function Home() {
 
   return (
-    <div>
+    <div className="bg-gray-50">
 
-      {/**Navigation */}
-      <Header/>
-
+      {/**Navigation <Header/>*/}
+      
+    <ResponsiveNavBar/>
       {/**Main */}
       <Main>
         {/**Banner Section */}

@@ -7,9 +7,9 @@ import CloseIcon from '../icons/CloseIcon'
 
 const About = () => {
     return (
-        <section id="About" className="flex lg:flex-row lg:space-y-0 space-y-8 flex-col items-center w-full justify-around pt-28 space-x-8">
-          <div className="lg:block hidden lg:w-5/12 flex-shrink-0">
-            <img className=" w-full h-auto" src="/img/about2.svg" alt="" />
+        <section id="About_me" className="flex lg:flex-row lg:space-y-0 space-y-8 flex-col items-center w-full justify-around pt-28 space-x-8">
+          <div className=" lg:flex justify-start hidden lg:w-1/2 max-w-lg flex-shrink-0">
+            <img className=" w-11/12 h-auto" src="/img/about2.svg" alt="" />
           </div>
           <div className="flex flex-col items-start space-y-4 flex-grow">
             <h1 className="lg:text-5xl text-3xl self-center font-bold text-dark mb-4">About me</h1>
@@ -45,7 +45,7 @@ const About = () => {
               <Modal className="fixed top-0 items-center justify-center left-0 w-full h-full z-40">
                 <div className=" relative  bg-white lg:max-w-screen-md w-11/12  shadow-lg z-50 max-h-3/4 overflow-y-auto rounded" >
                   <CloseModal className=" z-50 absolute top-8 right-8 ">
-                    <CloseIcon className=" text-gray-800 w-4 h-4" />
+                    <CloseIcon className=" text-red-800 w-4 h-4" />
                   </CloseModal>
                   <div className="flex flex-col space-y-4 lg:p-16 p-4">
                     <h1 className="lg:text-5xl text-3xl font-bold text-dark">Know more</h1>

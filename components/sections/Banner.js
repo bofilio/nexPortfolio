@@ -38,7 +38,7 @@ const Banner = () => {
           <Modal className="fixed top-0 left-0 w-full h-full items-center justify-center z-30">
             <div className=" relative flex  items-center bg-white lg:w-full w-11/12 max-w-lg  shadow-lg z-40 py-12 px-8 overflow-y-auto rounded-2xl">
               <CloseModal className=" z-50 absolute top-8 right-8 ">
-                <CloseIcon className=" text-gray-800 w-4 h-4" />
+                <CloseIcon className=" text-red-800 w-4 h-4" />
               </CloseModal>
                 {
                   res_status !=null &&
@@ -60,9 +60,9 @@ const Banner = () => {
                 </div>
                 <div className="flex items-center justify-end space-x-4">
                   <CloseModal>
-                    <button type='button' className="px-4 py-2 bg-error text-light rounded-lg" data-dismiss="modal">Cancel</button>
+                    <button type='button' className="px-4 py-2 bg-red-500 text-light rounded-lg" data-dismiss="modal">Cancel</button>
                   </CloseModal>
-                  <button type='submit' className="px-4 py-2 bg-primary text-light rounded-lg">Send</button>
+                  <button type='submit' className="px-4 py-2 bg-secondary text-light rounded-lg">Send</button>
                 </div>
               </form>
             </div>

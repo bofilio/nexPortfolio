@@ -1,9 +1,12 @@
 import React from 'react'
 import LinkedInIcon from "../icons/LinkedInIcon";
 import GithubIcon from "../icons/GithubIcon";
+
 const Header = () => {
+    const [menuOpen, setMenuOpen] = React.useState(false);
     return (
-        <nav className=" w-full fixed top-0  bg-green-50 lg:px-16 px-4">
+        
+        <nav className=" w-full fixed top-0  bg-gradient-to-r from-blue-200 to-blue-50 lg:px-16 px-4">
             <div className="flex items-center justify-between  py-6 px-4 container m-auto">
                 <h1 className="text-dark text-2xl font-bold">Talha Hemza.</h1>
                 <div className="flex items-center space-x-8 font-semibold text-dark">
