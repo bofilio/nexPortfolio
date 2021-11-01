@@ -2,7 +2,7 @@ import LinkedInIcon from "../icons/LinkedInIcon";
 import GithubIcon from "../icons/GithubIcon";
 const MySocialLinks = ({ className }) => {
     return (
-        <div className={"md:flex hidden items-center space-x-3 self-start text-xs" + " " + className}>
+        <div className={"space-x-3 text-xs" + " " + className}>
             <a href="https://github.com/bofilio" className="no-underline">
                 <GithubIcon className="w-4 h-4" />
             </a>

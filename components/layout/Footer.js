@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="flex-grow" />
         <div className="flex items-center text-dark self-center space-x-8 mb-2">
           <span>email me : hemzatalha@gmail.com</span>
-          <MySocialLinks/>
+          <MySocialLinks className=" flex items-center"/>
         </div>
         <hr className=" border-gray-300 w-3/4 self-center" />
       </div>
