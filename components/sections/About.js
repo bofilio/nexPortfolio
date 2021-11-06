@@ -15,7 +15,7 @@ const About = () => {
             <h1 className="lg:text-5xl text-3xl self-center font-bold text-dark mb-4">About me</h1>
             <div className="flex flex-col space-y-2 text-gray">
               <p className="text-gray">
-                I am an engineer stack developer with over three years of experience.
+                I am a software engineer and a full stack developer with over three years of experience.
               </p>
               <p>
                 <span className="font-bold">Backend: </span>  I am familiar with NodeJs based frameworks (Express, NestJs)

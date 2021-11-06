@@ -51,7 +51,7 @@ const Banner = () => {
                 }
               <form className="flex flex-grow flex-col space-y-6 " onSubmit={(e) => sendEmail(e)}>
                 
-                <h1 className="">Feel free to contact us</h1>
+                <h1 className="">Feel free to contact me</h1>
                 <div className="flex flex-col space-y-2">
                   <input type="text" name="to_name" value="Bofil" readOnly hidden />
                   <input className=" border-primary flex-grow focus:outline-none py-2 px-4 border-2 rounded-md" type="text" name="name" placeholder="Enter your name" />
