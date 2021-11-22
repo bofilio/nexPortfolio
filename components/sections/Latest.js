@@ -2,6 +2,7 @@ import React from 'react'
 import DemoIcon from '../icons/DemoIcon';
 import ClockIcon from '../icons/ClockIcon'
 import GithubIcon from "../icons/GithubIcon";
+import Sample from '../content/Sample';
 const Latest = () => {
   return (
     <section id="Latest_Work" className="space-y-8  pt-28">
@@ -9,90 +10,42 @@ const Latest = () => {
         Latest work
       </h1>
       <div className="flex flex-wrap justify-center overflow-x-auto w-full px-4 py-6">
-
-        <div className=" flex flex-shrink-0 m-2 flex-col  border-2 text-xs border-gray-400 space-y-2 w-60  bg-white shadow-xl rounded-xl p-4">
-          <div className="flex justify-center items-center">
-            <img className=" w-full h-40 " src="/media/delivery.png" />
-          </div>
-          <h1 className=" self-center text-gray font-bold text-lg">Food Delivery Service</h1>
-          <p className="text-gray text-center"> Delivery food service website</p>
-          <div className=" flex items-center justify-center space-x-2  font-bold text-gray ">
-            <ClockIcon className="w-5 h-5" />
-            <span>One Month</span>
-          </div>
-          <div className=" flex items-center justify-center flex-wrap text-gray flex-grow">
-            <span className="p-1 rounded-lg bg-gray-200 text-gray-600 m-1"> NextJs</span>
+        <Sample className="border-2 border-gray-500" title="Food Delivery Service"
+          brief="Delivery food service website based on given figma design with 3 breakpoints" duration="20 days"
+          img="/media/delivery.png" github_link="https://github.com/bofilio/delivery-next"
+          demo_link="https://delivery-next.vercel.app/">
+           <span className="p-1 rounded-lg bg-gray-200 text-gray-600 m-1"> NextJs</span>
             <span className="p-1 rounded-lg bg-blue-200 text-blue-600 m-1"> TailWind</span>
             <span className="p-1 rounded-lg bg-red-200 text-red-600 m-1"> Scss</span>
             <span className="p-1 rounded-lg bg-green-200 text-green-600 m-1"> Ci-Cd</span>
-          </div>
-          <div className="flex items-center justify-center space-x-2">
-            <a className=" flex items-center border-2 border-gray-800  p-2 rounded-md space-x-2 hover:bg-gray-800 hover:text-gray-100 text-gray-800"
-              href="https://github.com/bofilio/delivery-next">
-              <GithubIcon className="w-4 h-4" />
-            </a>
-            <a className="flex items-center border-2   p-2 rounded-md space-x-2 border-blue-500 hover:bg-blue-500 hover:text-gray-100 text-blue-600"
-              href="https://delivery-next.vercel.app/">
-              <DemoIcon className="w-4 h-4" />
-            </a>
-          </div>
-        </div>
+        </Sample>
 
-        <div className=" flex flex-shrink-0 m-2 flex-col text-xs border-2 border-gray-300 space-y-2 w-60  bg-white shadow-xl rounded-xl p-4">
-          <div className="flex justify-center items-center">
-            <img className=" w-full h-40 " src="/img/banner.svg" />
-          </div>
-          <h1 className="self-center text-gray font-bold text-lg">My portfolio</h1>
-          <p className="text-gray text-center">This is the current portfolio you are in</p>
-          <div className=" flex items-center justify-center space-x-2 font-bold text-gray ">
-            <ClockIcon className="w-5 h-5" />
-            <span>One week</span>
-          </div>
-          <div className=" flex items-center justify-center space-x-2 text-gray flex-grow">
-            <span className=" p-1 rounded-lg  bg-gray-200 text-gray-600 "> NextJs</span>
-            <span className=" p-1 rounded-lg bg-green-200 text-green-600"> Css</span>
-            <span className="p-1 rounded-lg bg-blue-200 text-blue-600 "> TailWind</span>
-            <span className="p-1 rounded-lg bg-green-200 text-green-600"> Ci-Cd</span>
-          </div>
+        <Sample className="border-2 border-gray-400" title="My portfolio" duration="1weak"
+          brief="This is the current portfolio you are in" img="/img/banner.svg"
+          github_link="https://github.com/bofilio/nexPortfolio"
+          demo_link="#">
+          <span className=" p-1 rounded-lg  bg-gray-200 text-gray-600 "> NextJs</span>
+          <span className=" p-1 rounded-lg bg-green-200 text-green-600"> Css</span>
+          <span className="p-1 rounded-lg bg-blue-200 text-blue-600 "> TailWind</span>
+          <span className="p-1 rounded-lg bg-green-200 text-green-600"> Ci-Cd</span>
+        </Sample>
 
-          <div className="flex items-center justify-center space-x-2">
-            <a className=" flex items-center border-2 border-gray-800 p-2 rounded-md space-x-2 hover:bg-gray-800 hover:text-gray-100 text-gray-800"
-              href="https://github.com/bofilio/nexPortfolio">
-              <GithubIcon className="w-4 h-4" />
-            </a>
-            <a className="flex items-center border-2 p-2 rounded-md space-x-2 border-blue-500 hover:bg-blue-500 hover:text-gray-100 text-blue-600"
-              href="#">
-              <DemoIcon className="w-4 h-4" />
-            </a>
-          </div>
-        </div>
+        <Sample className="border-2 border-gray-400" title="Organic" duration="5 days"
+          brief="Organic food landing page" img="/media/organic.png"
+          github_link="https://github.com/bofilio/organic"
+          demo_link="https://organic-eta.vercel.app/">
+          <span className=" p-1 rounded-lg  bg-gray-200 text-gray-600 "> NextJs</span>
+          <span className="p-1 rounded-lg bg-blue-200 text-blue-600 "> TailWind</span>
+          <span className="p-1 rounded-lg bg-green-200 text-green-600"> Ci-Cd</span>
+        </Sample>
 
-        <div className=" flex flex-shrink-0 m-2 flex-col text-xs border-2 border-gray-300 space-y-2 w-60  bg-white shadow-xl rounded-xl p-4">
-          <div className="flex justify-center items-center">
-            <img className=" w-full h-40 " src="/media/restau.png" />
-          </div>
-          <h1 className="self-center text-gray font-bold text-lg">Restaurant Landing</h1>
-          <p className="text-gray text-center"> Restaurant Landing page based on a Figma design</p>
-          <div className=" flex items-center justify-center space-x-2 font-bold text-gray ">
-            <ClockIcon className="w-5 h-5" />
-            <span>One week</span>
-          </div>
-          <div className=" flex items-center justify-center space-x-2 text-gray flex-grow">
-            <span className=" p-1 rounded-lg  bg-gray-200 text-gray-600 "> NextJs</span>
-            <span className=" p-1 rounded-lg bg-green-200 text-green-600"> Css</span>
-          </div>
-
-          <div className="flex items-center justify-center space-x-2">
-            <a className=" flex items-center border-2 border-gray-800 p-2 rounded-md space-x-2 hover:bg-gray-800 hover:text-gray-100 text-gray-800"
-              href="https://github.com/bofilio/restaurant_landing">
-              <GithubIcon className="w-4 h-4" />
-            </a>
-            <a className="flex items-center border-2 p-2 rounded-md space-x-2 border-blue-500 hover:bg-blue-500 hover:text-gray-100 text-blue-600 "
-              href="https://bofilio.github.io/restaurant_landing/">
-              <DemoIcon className="w-4 h-4" />
-            </a>
-          </div>
-        </div>
+        <Sample className="border-2 border-gray-300" title="Restaurant Landing" duration="3 days"
+          brief="Restaurant Landing page based on a Figma design" img="/media/restau.png"
+          github_link="https://github.com/bofilio/restaurant_landing"
+          demo_link="https://bofilio.github.io/restaurant_landing/">
+          <span className=" p-1 rounded-lg  bg-gray-200 text-gray-600 "> NextJs</span>
+          <span className=" p-1 rounded-lg bg-green-200 text-green-600"> Css</span>
+        </Sample>
 
       </div>
     </section>
