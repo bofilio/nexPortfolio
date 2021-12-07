@@ -46,6 +46,14 @@ const Latest = () => {
           <span className=" p-1 rounded-lg  bg-gray-200 text-gray-600 "> NextJs</span>
           <span className=" p-1 rounded-lg bg-green-200 text-green-600"> Css</span>
         </Sample>
+        <Sample className="border-2 border-red-900" title="Food delivery backend" duration="3 days"
+          brief="Django backend for the food delivery service" img="/media/delivery.png"
+          github_link="https://github.com/bofilio/PyStore"
+          demo_link="https://pystorebackend.herokuapp.com/api/">
+          <span className=" p-1 rounded-lg  bg-gray-200 text-green-900 "> Django</span>
+          <span className=" p-1 rounded-lg bg-green-200 text-red-700"> Django-Rest-Framwork</span>
+          <span className=" p-1 rounded-lg bg-green-200 text-blue-500"> Postgres</span>
+        </Sample>
 
       </div>
     </section>
