@@ -18,10 +18,10 @@ export const ResponsiveNavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const navLinks = sections.map(
     section => <a key={section} href={`#${section.replace(" ", "_")}`}
-      className="no-underline text-lg text-dark font-semibold hover:text-gray-600" 
+      className="no-underline text-lg text-dark font-semibold hover:text-gray-600"
       onClick={() => setMenuOpen(!menuOpen)}
     >{section}</a>
-    );
+  );
 
   return (
     <nav className="w-full fixed top-0  bg-gradient-to-r from-green-100 to-green-50  ">
@@ -29,7 +29,7 @@ export const ResponsiveNavBar = () => {
       <div className="flex items-center justify-between p-5">
         <div className="flex items-center">
           <MagicIcon className="w-8 h-8 mr-2" />
-          <a href="#home" className="text-2xl font-bold no-underline text-dark hover:text-gray-600"> Talha hemza</a>
+          <a href="#Home" className="text-2xl font-bold no-underline text-dark hover:text-gray-600"> Talha hemza</a>
         </div>
         <nav className="hidden md:block space-x-8">
           {navLinks}
@@ -37,7 +37,7 @@ export const ResponsiveNavBar = () => {
         <button type="button" aria-label="Toggle mobile menu" onClick={() => setMenuOpen(!menuOpen)} className="rounded md:hidden focus:outline-none focus:ring focus:ring-green-800 focus:ring-opacity-50">
           <MenuIcon menuOpen={menuOpen} />
         </button>
-        <MySocialLinks className=" hidden md:flex"/>
+        <MySocialLinks className=" hidden md:flex" />
       </div>
       {/**menu on mobile screen */}
       {
